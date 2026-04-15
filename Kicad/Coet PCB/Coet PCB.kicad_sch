@@ -647,7 +647,7 @@
 			(property "Reference" "U"
 				(at 0 -0.508 0)
 				(show_name no)
-				(do_not_autoplace no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -664,7 +664,7 @@
 					)
 				)
 			)
-			(property "Footprint" "XL4015_DC:XL4015"
+			(property "Footprint" "XL4015DC:XL4015 DC-DC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -723,7 +723,7 @@
 				(pin power_in line
 					(at -10.16 1.27 0)
 					(length 2.54)
-					(name "IN+"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -741,7 +741,7 @@
 				(pin power_in line
 					(at -10.16 -1.27 0)
 					(length 2.54)
-					(name "IN-"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -759,7 +759,7 @@
 				(pin power_out line
 					(at 10.16 1.27 180)
 					(length 2.54)
-					(name "Out+"
+					(name "VOut"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -777,7 +777,7 @@
 				(pin power_out line
 					(at 10.16 -1.27 180)
 					(length 2.54)
-					(name "Out-"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2200,7 +2200,7 @@
 	)
 	(symbol
 		(lib_id "XL4015 DC-DC:XL4015_DC")
-		(at 72.39 121.92 0)
+		(at 72.39 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2209,19 +2209,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0378c467-0b23-4fc6-9564-a14a247637a1")
+		(uuid "37f53e24-c451-4394-99d5-723c99ac48c1")
 		(property "Reference" "U5"
-			(at 72.39 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XL4015_DC"
-			(at 71.882 116.84 0)
+			(at 72.39 121.158 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2230,8 +2220,18 @@
 				)
 			)
 		)
-		(property "Footprint" "XL4015_DC:XL4015"
-			(at 72.39 121.92 0)
+		(property "Value" "XL4015_DC"
+			(at 71.882 115.57 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XL4015DC:XL4015 DC-DC"
+			(at 72.39 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2242,7 +2242,7 @@
 			)
 		)
 		(property "Datasheet" "https://components101.com/modules/xl4015-dc-dc-converter-module"
-			(at 72.39 121.92 0)
+			(at 72.39 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2253,7 +2253,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 121.92 0)
+			(at 72.39 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2264,16 +2264,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "2588c237-2b70-4660-a128-4427bb2547ba")
-		)
-		(pin "3"
-			(uuid "bfde1c12-13f3-432a-aea2-dd557aec18ed")
+			(uuid "578a4ce4-64aa-451e-a07b-9a0b53cf1462")
 		)
 		(pin "2"
-			(uuid "c5c2283b-7583-477f-a16d-31f6f9c7d4fe")
+			(uuid "34b5a675-f57f-4a53-910f-6bbff9cc1304")
+		)
+		(pin "3"
+			(uuid "2d125392-822b-49d8-8177-a2a780ba69f2")
 		)
 		(pin "4"
-			(uuid "7d019655-3ef6-4f7e-91d0-eafcc9032a98")
+			(uuid "e4c792fb-410f-4051-b3a7-b507114daf11")
 		)
 		(instances
 			(project "Coet PCB"
