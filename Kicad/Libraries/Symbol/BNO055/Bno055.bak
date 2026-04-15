@@ -1,21 +1,27 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(symbol "BNO055"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -1.524 -1.27 0)
+			(at 8.636 -14.224 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "BNO055 Stemma"
+			(at 8.89 -4.064 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24,35 +30,52 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/downloads"
+			(at 7.366 -2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "ki_keywords" "BNO055, bno055, bno"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "BNO055_1_1"
 			(rectangle
-				(start -7.62 7.62)
-				(end 5.08 -10.16)
+				(start 2.54 -5.08)
+				(end 15.24 -22.86)
 				(stroke
 					(width 0)
 					(type solid)
@@ -61,8 +84,8 @@
 					(type background)
 				)
 			)
-			(pin input line
-				(at -10.16 5.08 0)
+			(pin power_in line
+				(at 0 -7.62 0)
 				(length 2.54)
 				(name "Vin"
 					(effects
@@ -79,8 +102,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 2.54 0)
+			(pin power_in line
+				(at 0 -10.16 0)
 				(length 2.54)
 				(name "3V"
 					(effects
@@ -97,8 +120,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 0 0)
+			(pin power_in line
+				(at 0 -12.7 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -116,7 +139,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -2.54 0)
+				(at 0 -15.24 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -134,7 +157,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -5.08 0)
+				(at 0 -17.78 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -152,7 +175,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -7.62 0)
+				(at 0 -20.32 0)
 				(length 2.54)
 				(name "RST"
 					(effects
@@ -170,7 +193,7 @@
 				)
 			)
 			(pin output line
-				(at 7.62 2.54 180)
+				(at 17.78 -10.16 180)
 				(length 2.54)
 				(name "INT"
 					(effects
@@ -188,7 +211,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 0 180)
+				(at 17.78 -12.7 180)
 				(length 2.54)
 				(name "ADR"
 					(effects
@@ -206,7 +229,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -2.54 180)
+				(at 17.78 -15.24 180)
 				(length 2.54)
 				(name "PS0"
 					(effects
@@ -224,7 +247,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -5.08 180)
+				(at 17.78 -17.78 180)
 				(length 2.54)
 				(name "PS1"
 					(effects
