@@ -492,13 +492,34 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "Black",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 0)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "Red",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(194, 0, 0)",
+        "tuning_profile": "",
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -644,7 +665,7 @@
         "uuid": "bdc0ea6b-5658-4e29-b56b-a1382d10ee9b"
       }
     ],
-    "used_designators": "U1,U3-5",
+    "used_designators": "C1_100uf1,R1-3,D1,U3,BZ1,C1_470uf1,M1-3",
     "variants": []
   },
   "sheets": [

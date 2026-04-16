@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0.002 -7.9793 0)
+			(at 0.002 -1.6293 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "BMP280 Stemma"
-			(at 0 3.302 0)
+			(at 0 9.652 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -29,7 +29,7 @@
 			)
 		)
 		(property "Footprint" "BMP280:BMP280"
-			(at 0 0 0)
+			(at 0 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -74,8 +74,8 @@
 		)
 		(symbol "BMP280_1_1"
 			(rectangle
-				(start -6.856 2.1807)
-				(end 7.114 -18.1393)
+				(start -6.856 8.5307)
+				(end 7.114 -11.7893)
 				(stroke
 					(width 0)
 					(type solid)
@@ -85,7 +85,7 @@
 				)
 			)
 			(pin power_in line
-				(at -9.396 -0.3593 0)
+				(at -9.396 5.9907 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -103,7 +103,7 @@
 				)
 			)
 			(pin power_in line
-				(at -9.396 -2.8993 0)
+				(at -9.396 3.4507 0)
 				(length 2.54)
 				(name "3vo"
 					(effects
@@ -121,7 +121,7 @@
 				)
 			)
 			(pin power_in line
-				(at -9.396 -5.4393 0)
+				(at -9.396 0.9107 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -139,7 +139,7 @@
 				)
 			)
 			(pin input line
-				(at -9.396 -7.9793 0)
+				(at -9.396 -1.6293 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -157,7 +157,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -9.396 -10.5193 0)
+				(at -9.396 -4.1693 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -175,7 +175,7 @@
 				)
 			)
 			(pin input line
-				(at -9.396 -13.0593 0)
+				(at -9.396 -6.7093 0)
 				(length 2.54)
 				(name "CS"
 					(effects
@@ -193,7 +193,7 @@
 				)
 			)
 			(pin output line
-				(at -9.396 -15.5993 0)
+				(at -9.396 -9.2493 0)
 				(length 2.54)
 				(name "SDO"
 					(effects
